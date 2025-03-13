@@ -3,7 +3,7 @@ import { destinations } from "../data"
 
 const Destination = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-13">
+    <div className="flex flex-col justify-center items-center mt-13 mb-15">
         <h1 className="mb-8 text-4xl font-semibold text-blue-400">Best Destinations</h1>
         <div className="flex flex-wrap justify-center  max-w-[1300px] p-4 gap-6 ">
             {destinations.map((dest)=>(

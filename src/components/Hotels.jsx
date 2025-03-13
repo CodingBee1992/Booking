@@ -2,8 +2,8 @@ import { CiLocationOn } from 'react-icons/ci'
 
 const Hotels = ({ hotels, heading }) => {
 	return (
-		<div className="flex flex-col items-center mt-7 bg-gray-200">
-			<h1 className="mt-8 text-4xl text-blue-400">{heading}</h1>
+		<div className="flex flex-col items-center">
+			<h1 className=" text-4xl text-blue-400">{heading}</h1>
 			<div className="flex flex-wrap justify-center gap-6 p-4  max-w-[1300px]">
 				{hotels.map(hotel => (
 					<div
