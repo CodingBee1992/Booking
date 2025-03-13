@@ -3,4 +3,5 @@
 .repeat{
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     color: #626262;
+    border-color: #0071c2;
 }
