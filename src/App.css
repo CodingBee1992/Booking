@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.repeat{
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    color: #626262;
+}
