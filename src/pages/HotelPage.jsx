@@ -37,12 +37,12 @@ const HotelPage = () => {
 			<div >
 				{open && (
 					<div className='fixed top-0 bg-[rgba(0,0,0,.7)] h-dvh w-full'>
-						<FaCircleXmark className='absolute top-5 right-5 size-8 stroke-black text-gray-300 cursor-pointer' onClick={() => setOpen(false)} />
-						<FaCircleArrowLeft className='absolute top-[50%] translate-y-[-50%] left-4 size-10 text-gray-300 cursor-pointer' onClick={() => handleMove('l')} />
+						<FaCircleXmark className='absolute top-5 right-5 size-8 fill-gray-300  cursor-pointer ' onClick={() => setOpen(false)} />
+						<FaCircleArrowLeft className='absolute top-[50%] translate-y-[-50%] left-4 size-10 fill-gray-300  cursor-pointer' onClick={() => handleMove('l')} />
 						<div className='flex h-full items-center justify-center'>
 							<img className='w-[1000px] h-[600px] object-cover' src={rooms[sliderNumber].image} alt="" />
 						</div>
-						<FaCircleArrowRight className='absolute top-[50%] translate-y-[-50%] right-5 size-10 text-gray-300 cursor-pointer' onClick={()=> handleMove("r")}/>
+						<FaCircleArrowRight className='absolute top-[50%] translate-y-[-50%] right-5 size-10 fill-gray-300  cursor-pointer' onClick={()=> handleMove("r")}/>
 					</div>
 				)}
 				<div className='p-4 mr-auto ml-auto max-w-[1300px]'>
